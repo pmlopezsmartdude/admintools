@@ -1,0 +1,453 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:RoleEditor.aspx.designer.cs" caret="6564" fromTop="11" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Styles/f:Site.css" caret="1762" fromTop="41" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:RoleEditor.aspx.cs" caret="137" fromTop="5" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Site.Master.designer.cs" caret="1814" fromTop="51" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:RoleEditor.aspx" caret="1480" fromTop="21" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.Debug.config" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:Login.aspx.cs" caret="316" fromTop="13" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:Login.aspx.designer.cs" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:ChangePassword.aspx" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:ChangePasswordSuccess.aspx" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Site.Master.cs" caret="339" fromTop="13" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Default.aspx" caret="739" fromTop="17" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:Login.aspx" caret="620" fromTop="14" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Site.Master" caret="1398" fromTop="27" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:GetAllUsers.cs" caret="508" fromTop="16" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:Account/f:Web.config" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="1889" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="0" fromTop="0" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.config" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Site.Master" caret="967" fromTop="22" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.config" caret="2381" fromTop="38" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.config" caret="2133" fromTop="32" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.config" caret="1608" fromTop="26" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/f:Web.config" caret="889" fromTop="16" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="1155" fromTop="11" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="1889" fromTop="28" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="3357" fromTop="17" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="3358" fromTop="33" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx" caret="976" fromTop="10" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx" caret="9840" fromTop="12" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx" caret="1549" fromTop="7" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="6215" fromTop="39" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="3591" fromTop="28" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="3821" fromTop="33" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="6494" fromTop="57" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="4130" fromTop="37" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="4457" fromTop="43" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="4784" fromTop="43" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="5111" fromTop="49" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="7244" fromTop="43" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="5613" fromTop="11" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="7551" fromTop="12" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="7695" fromTop="44" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="3756" fromTop="33" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="3701" fromTop="40" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="3701" fromTop="38" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="3659" fromTop="21" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:ManageUsers.aspx.cs" caret="3660" fromTop="15" />
+      <File id="101EFAB0-A298-4169-BE2A-0DE56CC723C6/d:AdminPages/f:CreateUser.aspx.cs" caret="1889" fromTop="31" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="GetAllUsers`0" priority="9" />
+      <Item value="GetUser`0" priority="1" />
+      <Item value="DeleteUser`0" priority="1" />
+      <Item value="UpdateUser`0" priority="2" />
+      <Item value="CreateUser`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="UserGrid" priority="15" />
+      <Item value="User" priority="3" />
+      <Item value="e" priority="8" />
+      <Item value="if" priority="30" />
+      <Item value="Page`0" priority="4" />
+      <Item value="Membership`0" priority="25" />
+      <Item value="data" priority="1" />
+      <Item value="DataView`0" priority="0" />
+      <Item value="new" priority="22" />
+      <Item value="DataView" priority="0" />
+      <Item value="dataView" priority="1" />
+      <Item value="ConvertSortDirectionToSql`0" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="protected" priority="5" />
+      <Item value="DataSet`0" priority="1" />
+      <Item value="dataSet" priority="2" />
+      <Item value="DataSet" priority="0" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="dataTable" priority="6" />
+      <Item value="DataTable" priority="0" />
+      <Item value="Type`0" priority="2" />
+      <Item value="foreach" priority="8" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="dr" priority="3" />
+      <Item value="member" priority="2" />
+      <Item value="return" priority="4" />
+      <Item value="mu" priority="0" />
+      <Item value="UserGrid_ModalPopupExtender" priority="1" />
+      <Item value="UserNameText" priority="11" />
+      <Item value="UserEmailTxt" priority="3" />
+      <Item value="ManageSave" priority="1" />
+      <Item value="user" priority="30" />
+      <Item value="ActiveBox" priority="2" />
+      <Item value="true" priority="5" />
+      <Item value="String`0" priority="0" />
+      <Item value="Response" priority="3" />
+      <Item value="HttpResponse`0" priority="0" />
+      <Item value="ModalPopupExtender2" priority="0" />
+      <Item value="MembershipUser" priority="0" />
+      <Item value="CheckBoxRoles" priority="3" />
+      <Item value="Roles`0" priority="24" />
+      <Item value="List&lt;string&gt;" priority="5" />
+      <Item value="CheckBox`0" priority="8" />
+      <Item value="CheckBox" priority="1" />
+      <Item value="box" priority="15" />
+      <Item value="role" priority="5" />
+      <Item value="LiteralControl`0" priority="1" />
+      <Item value="LiteralControl" priority="1" />
+      <Item value="roleDiv" priority="4" />
+      <Item value="rolesOfUser" priority="0" />
+      <Item value="Control`0" priority="2" />
+      <Item value="control" priority="2" />
+      <Item value="is" priority="2" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="else" priority="5" />
+      <Item value="roleUsers" priority="2" />
+      <Item value="FormatException`0" priority="0" />
+      <Item value="roles" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="Request" priority="0" />
+      <Item value="Boolean`0" priority="0" />
+      <Item value="void" priority="8" />
+      <Item value="object" priority="3" />
+      <Item value="EventArgs`0" priority="3" />
+      <Item value="null" priority="1" />
+      <Item value="PassText" priority="2" />
+      <Item value="EmailText" priority="2" />
+      <Item value="ActiveUser" priority="0" />
+      <Item value="status" priority="0" />
+      <Item value="Users`0" priority="0" />
+      <Item value="userStatus" priority="5" />
+      <Item value="MembershipCreateStatus" priority="0" />
+      <Item value="PassConfirmText" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="CreateButton_ModalPopupExtender" priority="0" />
+      <Item value="MyPopUp" priority="0" />
+      <Item value="literalControl" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="exception" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="Success" priority="0" />
+      <Item value="InvalidPassword" priority="0" />
+      <Item value="DuplicateUserName" priority="0" />
+      <Item value="PopUpText" priority="2" />
+      <Item value="RoleServiceManager`0" priority="0" />
+      <Item value="Roles" priority="0" />
+      <Item value="RoleBox" priority="3" />
+      <Item value="Label`0" priority="0" />
+      <Item value="AddButton_ModalPopupExtender" priority="0" />
+      <Item value="RoleNameText" priority="1" />
+      <Item value="checkBox" priority="2" />
+      <Item value="RadioButtonList`0" priority="3" />
+      <Item value="buttonList" priority="2" />
+      <Item value="RadioButtonList" priority="1" />
+      <Item value="RadioButtonsRemove" priority="1" />
+      <Item value="RemoveButton_ModalPopupExtender" priority="0" />
+      <Item value="list" priority="2" />
+      <Item value="item" priority="3" />
+      <Item value="Length" priority="0" />
+      <Item value="editButtonList" priority="11" />
+      <Item value="RoleUsersList" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="CreateRadioButtons`0" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="string" priority="18" />
+      <Item value="usersInRole" priority="2" />
+      <Item value="List" priority="1" />
+      <Item value="remainingUsers" priority="1" />
+      <Item value="AllUsersList" priority="1" />
+      <Item value="DetermineRemaingUsers`0" priority="1" />
+      <Item value="ListItem`0" priority="1" />
+      <Item value="listItem" priority="3" />
+      <Item value="using" priority="2" />
+      <Item value="MySql.Data" priority="1" />
+      <Item value="Types" priority="0" />
+      <Item value="mySqlConnection" priority="8" />
+      <Item value="MySqlConnection" priority="0" />
+      <Item value="strProvider" priority="0" />
+      <Item value="AddToMySQL`0" priority="0" />
+      <Item value="cryptoServiceProvider" priority="1" />
+      <Item value="MD5CryptoServiceProvider" priority="0" />
+      <Item value="byte" priority="2" />
+      <Item value="System" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="Encoding`0" priority="0" />
+      <Item value="bs" priority="1" />
+      <Item value="MySqlConnectionStringBuilder`0" priority="0" />
+      <Item value="builder" priority="5" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="b" priority="0" />
+      <Item value="returnString" priority="3" />
+      <Item value="HashPasswordMD5`0" priority="0" />
+      <Item value="RNGCryptoServiceProvider`0" priority="0" />
+      <Item value="RNGCryptoServiceProvider" priority="0" />
+      <Item value="random" priority="1" />
+      <Item value="randomBytes" priority="2" />
+      <Item value="for" priority="1" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="randomByte" priority="0" />
+      <Item value="GenerateSalt`0" priority="0" />
+      <Item value="sizeof" priority="0" />
+      <Item value="int" priority="3" />
+      <Item value="BitConverter`0" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="val" priority="1" />
+      <Item value="Validate`0" priority="0" />
+      <Item value="MySqlCommand`0" priority="2" />
+      <Item value="command" priority="9" />
+      <Item value="MySqlCommand" priority="3" />
+      <Item value="sqlStatement" priority="5" />
+      <Item value="MySqlDataReader`0" priority="2" />
+      <Item value="while" priority="0" />
+      <Item value="reader" priority="9" />
+      <Item value="hashedPassword" priority="1" />
+      <Item value="salt" priority="0" />
+      <Item value="formattedJoomla" priority="1" />
+      <Item value="DateTime`0" priority="3" />
+      <Item value="MySqlDateTime`0" priority="1" />
+      <Item value="GetFromMySQL`0" priority="0" />
+      <Item value="stringToReturn" priority="2" />
+      <Item value="wholePassword" priority="1" />
+      <Item value="semiColonPos" priority="0" />
+      <Item value="NameText" priority="1" />
+      <Item value="SetDefaultGroupsInJoomla`0" priority="0" />
+      <Item value="MySqlDataReader" priority="0" />
+      <Item value="MySql" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="3" />
+      <Item value="DataBind`0" priority="5" />
+      <Item value="PageIndex" priority="2" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="SelectedRow" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
+      <Item value="NewPageIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="1" />
+      <Item value="OnLoad`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewSortEventArgs">
+      <Item value="SortExpression" priority="1" />
+      <Item value="SortDirection" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataView">
+      <Item value="Sort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTableCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="2" />
+      <Item value="NewRow`0" priority="0" />
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="Email" priority="2" />
+      <Item value="CreationDate" priority="1" />
+      <Item value="LastLoginDate" priority="1" />
+      <Item value="IsApproved" priority="3" />
+      <Item value="UserName" priority="9" />
+      <Item value="ProviderName" priority="0" />
+      <Item value="ProviderUserKey" priority="0" />
+      <Item value="PasswordQuestion" priority="0" />
+      <Item value="Comment" priority="0" />
+      <Item value="IsLockedOut" priority="0" />
+      <Item value="ChangePassword`0" priority="1" />
+      <Item value="GetPassword`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.ModalPopupExtender">
+      <Item value="Show`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="9" />
+      <Item value="ID" priority="6" />
+      <Item value="Text" priority="1" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Indexer" priority="0" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="ToLower`0" priority="1" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Substring`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="Controls" priority="7" />
+      <Item value="FindControl`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Roles">
+      <Item value="GetAllRoles`0" priority="4" />
+      <Item value="GetRolesForUser`0" priority="0" />
+      <Item value="AddUsersToRole`0" priority="0" />
+      <Item value="AddUserToRole`0" priority="3" />
+      <Item value="GetUsersInRole`0" priority="3" />
+      <Item value="RemoveUserFromRole`0" priority="1" />
+      <Item value="RemoveUsersFromRole`0" priority="1" />
+      <Item value="CreateRole`0" priority="0" />
+      <Item value="FindUsersInRole`0" priority="0" />
+      <Item value="DeleteRole`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="3" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WSATTest.Users">
+      <Item value="Controls" priority="0" />
+      <Item value="FindControl`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Form" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.MembershipCreateStatus">
+      <Item value="Success" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipCreateUserException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButtonList">
+      <Item value="Items" priority="1" />
+      <Item value="ID" priority="1" />
+      <Item value="SelectedIndex" priority="4" />
+      <Item value="SelectedItem" priority="2" />
+      <Item value="SelectedIndexChanged" priority="1" />
+      <Item value="AutoPostBack" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="AddRange`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="8" />
+      <Item value="Selected" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListBox">
+      <Item value="DataSource" priority="1" />
+      <Item value="DataBind`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlConnection">
+      <Item value="Open`0" priority="0" />
+      <Item value="CancelQuery`0" priority="0" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.MD5CryptoServiceProvider">
+      <Item value="ComputeHash`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="1" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Byte">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.RNGCryptoServiceProvider">
+      <Item value="GetBytes`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Void">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlCommand">
+      <Item value="ExecuteReader`0" priority="4" />
+      <Item value="ExecuteNonQuery`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlDataReader">
+      <Item value="Read`0" priority="4" />
+      <Item value="GetString`0" priority="0" />
+      <Item value="Close`0" priority="1" />
+      <Item value="GetInt32`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Year" priority="0" />
+      <Item value="Month" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
