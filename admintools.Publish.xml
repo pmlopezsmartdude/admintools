@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\publicaciones\admintools" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="admintools" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="AdminPages/CreateUser.aspx" publishTime="03/21/2011 15:48:44" />
+    <file relUrl="Global.asax" publishTime="03/15/2011 16:38:54" />
+    <file relUrl="Site.Master" publishTime="11/20/2014 15:35:06" />
+    <file relUrl="Styles/Site.css" publishTime="11/20/2014 15:54:27" />
+    <file relUrl="bin/es/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="03/15/2011 16:38:54" />
+    <file relUrl="bin/zh-CHT/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/hi/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/zh-CHS/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/ru/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="Account/Web.config" publishTime="03/21/2011 13:27:36" />
+    <file relUrl="Account/Register.aspx" publishTime="03/15/2011 16:38:52" />
+    <file relUrl="Account/Login.aspx" publishTime="11/20/2014 18:03:58" />
+    <file relUrl="bin/AjaxControlToolkit.pdb" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="AdminPages/ManageUsers.aspx" publishTime="11/20/2014 22:23:29" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="03/15/2011 16:38:54" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="Default.aspx" publishTime="11/20/2014 15:30:38" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="03/15/2011 16:38:52" />
+    <file relUrl="bin/fr/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/WSATTest.pdb" publishTime="11/20/2014 22:20:18" />
+    <file relUrl="bin/he/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="AdminPages/RoleEditor.aspx" publishTime="03/17/2011 15:52:54" />
+    <file relUrl="AdminPages/Web.config" publishTime="11/20/2014 17:41:42" />
+    <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/tr-TR/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/it/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/pt/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="03/15/2011 16:38:52" />
+    <file relUrl="Web.config" publishTime="11/20/2014 22:33:49" />
+    <file relUrl="bin/cs/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/WSATTest.dll" publishTime="11/20/2014 22:20:18" />
+    <file relUrl="bin/ar/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/ja/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="bin/de/AjaxControlToolkit.resources.dll" publishTime="01/26/2011 18:17:50" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="03/15/2011 16:38:54" />
+  </publishProfile>
+</publishData>

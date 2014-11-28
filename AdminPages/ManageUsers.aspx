@@ -125,7 +125,7 @@
         <div id="btnPanel" style="margin: auto auto auto auto; width:339px;">
             <asp:Button runat="server" ID="ManageSave" Text="Guardar" OnClick="ManageUserSave" />
             <asp:Button runat="server" ID="ManageDelete" Text="Borrar" OnClick="AskMessage" style="margin-left:10px; margin-right: 10px;" />
-            <asp:Button runat="server" ID="ManagePass" Text="Password" OnClick="ManagePasswd" style="margin-left:10px; margin-right: 10px;" visible="false" />
+            <asp:Button runat="server" ID="ManagePass" Text="Password" OnClick="ManagePasswd" style="margin-left:10px; margin-right: 10px;" visible="true" />
             <asp:Button ID="Button1" runat="server" Text="Cancelar" />
         </div>
         </asp:Panel>
