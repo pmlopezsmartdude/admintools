@@ -116,20 +116,82 @@ namespace WSATTest
 
         }
 
+        protected void chgpass(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(UserNameText.Text))
+            {
+                string newPassword;
+                MembershipUser u = Membership.GetUser(UserNameText.Text);
+               
+
+                if (u == null)
+                {
+                    lbl_anterior.Text = "Username " + Server.HtmlEncode(UserNameText.Text) + " not found. Please check the value and re-enter.";
+                    return;
+                }
+
+                try
+                {
+                    newPassword = u.ResetPassword();
+                }
+                catch (MembershipPasswordException eu)
+                {
+                    lbl_anterior.Text = "Invalid password answer. Please re-enter and try again.";
+                    return;
+                }
+                catch (Exception eu)
+                {
+                    lbl_anterior.Text = eu.Message;
+                    return;
+                }
+
+                if (newPassword != null)
+                {
+                    lbl_anterior.Text = Convert.ToString(Server.HtmlEncode(newPassword));
+                    //lbl_anterior.Text = newPassword;
+                    //  lbl_anterior.Text = "Password reset. Your new password is: " + Server.HtmlEncode(newPassword);
+                }
+                else
+                {
+                    Response.Write("<script language=javascript > alert('reset fail'); </script>");
+                    //lbl_anterior.Text = "Password reset failed. Please re-enter your values and try again.";
+                }
+
+
+
+                try
+                {
+                    if (u.ChangePassword(lbl_anterior.Text, NewPassword.Text))
+                    {
+                        Response.Write("<script language=javascript > alert('Password changed'); </script>");
+                      //  lbl_listo.Text = "Password changed.";
+                    }
+                    else
+                    {
+                        Response.Write("<script language=javascript > alert('Password change failed'); </script>");
+                        //lbl_listo.Text = "Password change failed. Please re-enter your values and try again.";
+                    }
+                }
+                catch (Exception eu)
+                {
+                   // lbl_listo.Text = "An exception occurred: " + Server.HtmlEncode(eu.Message) + ". Please re-enter your values and try again.";
+                    Response.Write("<script language=javascript > alert('" + Server.HtmlEncode(eu.Message) + "'); </script>");
+                }
+
+            }
+
+
+        }
+        
         protected void AskMessage(object sender, EventArgs e)
         {
            ModalPopupExtender2.Show();
         }
+
         protected void ManagePasswd(object sender, EventArgs e)
         {
             ModalPopupExtender3.Show();
         }
-        protected void chgpass(object sender, EventArgs e)
-        {
-            if (!String.IsNullOrEmpty(NewPassword.Text))
-            {
-           
-            }
-        }
+
     }
 }

@@ -94,22 +94,31 @@ namespace WSATTest {
         protected global::System.Web.UI.WebControls.Button CancelDelete;
         
         /// <summary>
-        /// Control label.
+        /// Control DivManagePass.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label;
+        protected global::System.Web.UI.WebControls.Panel DivManagePass;
         
         /// <summary>
-        /// Control NameText.
+        /// Control Datos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NameText;
+        protected global::System.Web.UI.WebControls.Table Datos;
+        
+        /// <summary>
+        /// Control lbl_anterior.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_anterior;
         
         /// <summary>
         /// Control NewPasswordLabel.
@@ -175,15 +184,6 @@ namespace WSATTest {
         protected global::System.Web.UI.WebControls.CompareValidator NewPasswordCompare;
         
         /// <summary>
-        /// Control CancelPushButton.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CancelPushButton;
-        
-        /// <summary>
         /// Control ChangePasswordPushButton.
         /// </summary>
         /// <remarks>
@@ -193,22 +193,58 @@ namespace WSATTest {
         protected global::System.Web.UI.WebControls.Button ChangePasswordPushButton;
         
         /// <summary>
-        /// Control panelDragHandle.
+        /// Control CancelPushButton.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelDragHandle;
+        protected global::System.Web.UI.WebControls.Button CancelPushButton;
         
         /// <summary>
-        /// Control Label3.
+        /// Control lbl_listo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lbl_listo;
+        
+        /// <summary>
+        /// Control divPopUp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel divPopUp;
+        
+        /// <summary>
+        /// Control label5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label5;
+        
+        /// <summary>
+        /// Control label6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label6;
+        
+        /// <summary>
+        /// Control label7.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label7;
         
         /// <summary>
         /// Control UserNameText.
@@ -220,13 +256,22 @@ namespace WSATTest {
         protected global::System.Web.UI.WebControls.TextBox UserNameText;
         
         /// <summary>
-        /// Control Label4.
+        /// Control roleDiv.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl roleDiv;
+        
+        /// <summary>
+        /// Control label8.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label8;
         
         /// <summary>
         /// Control UserEmailTxt.
@@ -245,15 +290,6 @@ namespace WSATTest {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox ActiveBox;
-        
-        /// <summary>
-        /// Control roleDiv.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl roleDiv;
         
         /// <summary>
         /// Control ManageSave.

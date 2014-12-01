@@ -20,3 +20,25 @@ C:\Users\Patricio\Documents\Visual Studio 2010\Projects\admintools\bin\ru\AjaxCo
 C:\Users\Patricio\Documents\Visual Studio 2010\Projects\admintools\bin\tr-TR\AjaxControlToolkit.resources.dll
 C:\Users\Patricio\Documents\Visual Studio 2010\Projects\admintools\bin\zh-CHS\AjaxControlToolkit.resources.dll
 C:\Users\Patricio\Documents\Visual Studio 2010\Projects\admintools\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\WSATTest.dll
+D:\Proyectos\admintools\bin\WSATTest.pdb
+D:\Proyectos\admintools\bin\AjaxControlToolkit.pdb
+D:\Proyectos\admintools\bin\ar\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\cs\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\de\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\es\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\fr\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\he\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\hi\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\it\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\ja\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\ko\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\nl\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\pt\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\ru\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Proyectos\admintools\obj\Debug\admintools.csprojResolveAssemblyReference.cache
+D:\Proyectos\admintools\obj\Debug\WSATTest.dll
+D:\Proyectos\admintools\obj\Debug\WSATTest.pdb
