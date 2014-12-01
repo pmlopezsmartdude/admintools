@@ -95,7 +95,7 @@
               </asp:TableCell><asp:TableCell width="40">
            <asp:RequiredFieldValidator ID="NewPasswordRequired" runat="server" ControlToValidate="NewPassword" CssClass="failureNotification" Font-Size="x-Small"  ErrorMessage="Nueva contraseña requerida." ToolTip="Nueva contraseña requerida." ValidationGroup="ChangeUserPasswordValidationGroup"/>
               
-              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle" Height="20">
+              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle" Height="20"> 
               <asp:TableCell >
               <asp:Label ID="ConfirmNewPasswordLabel" runat="server" AssociatedControlID="ConfirmNewPassword" width="200" Height="20" Text="Confirmar nueva contraseña:" ></asp:Label>
               </asp:TableCell><asp:TableCell >

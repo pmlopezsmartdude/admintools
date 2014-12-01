@@ -138,7 +138,7 @@ namespace WSATTest
                 {
                     lbl_anterior.Text = "Invalid password answer. Please re-enter and try again.";
                     return;
-                }
+                } 
                 catch (Exception eu)
                 {
                     lbl_anterior.Text = eu.Message;
