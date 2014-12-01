@@ -11,7 +11,7 @@
         {
             width: 89px;
         }
-        .style3
+        .style3 
         {
             width: 100px;
         }

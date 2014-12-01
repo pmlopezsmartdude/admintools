@@ -12,7 +12,7 @@ namespace WSATTest {
      
     public partial class Users {
         
-        /// <summary>
+        /// <summary> 
         /// Control ToolkitScriptManager1.
         /// </summary>
         /// <remarks>
