@@ -83,7 +83,7 @@ namespace WSATTest
             if (RoleNameText.Text != "")
             {
                 Roles.CreateRole(RoleNameText.Text);
-                Response.Redirect("/RoleEditor.aspx");
+                Response.Redirect("~/AdminPages/RoleEditor.aspx");
             }
         }
 
@@ -100,7 +100,7 @@ namespace WSATTest
                 
             Roles.DeleteRole(item.Text);
 
-            Response.Redirect("/RoleEditor.aspx");
+            Response.Redirect("~/AdminPages/RoleEditor.aspx");
             
         }
 

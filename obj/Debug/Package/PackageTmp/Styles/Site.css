@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6
     text-transform: none;
     font-weight: 200;
     margin-bottom: 0px;
+    font-family: 'Century Gothic';
 }
 
 h1
@@ -195,6 +196,7 @@ fieldset
     margin: 1em 0px;
     padding: 1em;
     border: 1px solid #ccc;
+    width: 414px;
 }
 
 fieldset p 

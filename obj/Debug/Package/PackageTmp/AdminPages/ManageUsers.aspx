@@ -2,12 +2,28 @@
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     
+    <style type="text/css">
+        .style1
+        {
+            width: 90px;
+        }
+        .style2
+        {
+            width: 89px;
+        }
+        .style3 
+        {
+            width: 100px;
+        }
+    </style>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <p><b>Usuarios actuales del sistema</b></p>
     <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
     </asp:ToolkitScriptManager>
     <asp:ObjectDataSource ID="UserDataSource" runat="server" SelectMethod="CustomGetAllUsers" TypeName="WSATTest.GetAllUsers"/>
+  
     <asp:GridView ID="UserGrid" DataSourceID="UserDataSource" runat="server" 
         AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None" 
         AllowSorting="True" Width="915px" 
@@ -27,6 +43,7 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
+
     
     <asp:ModalPopupExtender ID="UserGrid_ModalPopupExtender" runat="server" 
         DynamicServicePath="" TargetControlID="hideButton" Enabled="True" PopupControlID="divPopUp" PopupDragHandleControlID="panelDragHandle">
@@ -52,88 +69,76 @@
             style="margin-left: 11px" />
         </div>
     </div>
-        <div id="DivManagePass" style="display:none; background-color:White; width:400px; height:200px; border: 2px solid black;">
+
+    <asp:Panel ID="DivManagePass" runat="server" BackColor="White">
+
+
+     <div id="CambioContrasena" width="600px" Height="55px" style="border: 2px solid black;">
+
         <fieldset class="changePassword">
-        <p> Reestablecer contraseña</p>
-                            <p>
-                            <asp:Label ID="label" runat="server" Text="Usuario:" />
-                            <asp:TextBox runat="server" ID="NameText" ValidationGroup="ChangeUserPasswordValidationGroup"
-                            style="margin-left: 110px; width:250px;" />
-                        <asp:Label ID="NewPasswordLabel" runat="server" AssociatedControlID="NewPassword">Nueva Contraseña:</asp:Label>
-                        <asp:TextBox ID="NewPassword" runat="server" CssClass="passwordEntry" TextMode="Password" ValidationGroup="ChangeUserPasswordValidationGroup"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="NewPasswordRequired" runat="server" ControlToValidate="NewPassword" CssClass="failureNotification" ErrorMessage="Nueva contraseña requerida." ToolTip="Nueva contraseña requerida." ValidationGroup="ChangeUserPasswordValidationGroup"/>
-                    </p>
-                    <p>
-                        <asp:Label ID="ConfirmNewPasswordLabel" runat="server" AssociatedControlID="ConfirmNewPassword">Confirmar nueva contraseña:</asp:Label>
-                        <asp:TextBox ID="ConfirmNewPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="ConfirmNewPasswordRequired" runat="server" ControlToValidate="ConfirmNewPassword" 
-                             CssClass="failureNotification" Display="Dynamic" ErrorMessage="Confirmar nueva contraseña es requerido."
-                             ToolTip="Confirmación de nueva contraseña requerida." ValidationGroup="ChangeUserPasswordValidationGroup"/>
-                        <asp:CompareValidator ID="NewPasswordCompare" runat="server" ControlToCompare="NewPassword" ControlToValidate="ConfirmNewPassword" 
-                             CssClass="failureNotification" Display="Dynamic" ErrorMessage="Confirmación de contraseña no coincide.."
-                             ValidationGroup="ChangeUserPasswordValidationGroup"/>
-                    </p>
-                    </fieldset>
-                    <div style="width:137px; margin: auto auto auto auto; display:inline">
-                    <p class="submitButton">
-                    <asp:Button ID="CancelPushButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel"/>
-                    <asp:Button ID="ChangePasswordPushButton" runat="server" ValidationGroup="ChangeUserPasswordValidationGroup" Text="Cambiar contraseña" onClick="chgpass"
-                         />
-                    </p>
-                    </div>
-    
-    </div>
+         <legend>Modificar contraseña</legend>
+
+           <asp:Table ID="Datos" runat="server" Width="412px" Height="40px" Font-Names="Century Gothic" Font-Size="Small" HorizontalAlign="Center">
+          <asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle" Height="5">
+              <asp:TableCell>
+             
+              </asp:TableCell><asp:TableCell >
+             
+              </asp:TableCell><asp:TableCell width="40" >
+              <asp:Label ID="lbl_anterior" runat="server" visible="false"/>
+           
+              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle"  Height="20">
+              <asp:TableCell >
+              <asp:Label ID="NewPasswordLabel" runat="server" AssociatedControlID="NewPassword" Text="Nueva Contraseña: " width="200" Height="20"></asp:Label>
+              </asp:TableCell><asp:TableCell >
+              <asp:TextBox ID="NewPassword" runat="server" CssClass="passwordEntry" TextMode="Password" ValidationGroup="ChangeUserPasswordValidationGroup" width="80" Height="20"></asp:TextBox>
+              </asp:TableCell><asp:TableCell width="40">
+           <asp:RequiredFieldValidator ID="NewPasswordRequired" runat="server" ControlToValidate="NewPassword" CssClass="failureNotification" Font-Size="x-Small"  ErrorMessage="Nueva contraseña requerida." ToolTip="Nueva contraseña requerida." ValidationGroup="ChangeUserPasswordValidationGroup"/>
+              
+              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle" Height="20"> 
+              <asp:TableCell >
+              <asp:Label ID="ConfirmNewPasswordLabel" runat="server" AssociatedControlID="ConfirmNewPassword" width="200" Height="20" Text="Confirmar nueva contraseña:" ></asp:Label>
+              </asp:TableCell><asp:TableCell >
+              <asp:TextBox ID="ConfirmNewPassword" runat="server" CssClass="passwordEntry" TextMode="Password" width="80" Height="20" ></asp:TextBox>
+              
+              </asp:TableCell><asp:TableCell width="40">
+           <asp:RequiredFieldValidator ID="ConfirmNewPasswordRequired" runat="server" ControlToValidate="ConfirmNewPassword" CssClass="failureNotification" Display="Dynamic" Font-Size="x-Small" ErrorMessage="Confirmar nueva contraseña es requerido." ToolTip="Confirmación de nueva contraseña requerida." ValidationGroup="ChangeUserPasswordValidationGroup"/>
+              <asp:CompareValidator ID="NewPasswordCompare" runat="server" ControlToCompare="NewPassword" ControlToValidate="ConfirmNewPassword" CssClass="failureNotification" Display="Dynamic" Font-Size="x-Small" ErrorMessage="Confirmación de contraseña no coincide.." ValidationGroup="ChangeUserPasswordValidationGroup"/> 
+             
+              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle" Height="20">
+              <asp:TableCell Width="100">
+           
+              </asp:TableCell></asp:TableRow><asp:TableRow HorizontalAlign="Center" VerticalAlign="Middle"  Height="20">
+              <asp:TableCell Width="100">
+           <asp:Button ID="ChangePasswordPushButton" runat="server" ValidationGroup="ChangeUserPasswordValidationGroup" Text="Cambiar contraseña" onClick="chgpass"/>
+              </asp:TableCell><asp:TableCell Width="30">
+              <asp:Button ID="CancelPushButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancelar"/>
+              </asp:TableCell><asp:TableCell >
+              <asp:Label ID="lbl_listo" runat="server"  ></asp:Label>
+              </asp:TableCell></asp:TableRow></asp:Table></fieldset></div></asp:Panel><asp:Panel ID="divPopUp" runat="server" BackColor="White">
 
 
-    <div id="divPopUp" style="display:none; background-color: White; width:540px; height:185px; border: 2px solid black;">
-        <asp:Panel runat="Server" ID="panelDragHandle" Height="100%" Width="100%" >
-            <p>Administrar usuario del sistema...</p>
-            <table runat="server" style="width:100%;">
-                <tr>
-                    <td style="width:65%;">
-                        <b>Información del usuario</b>
-                    </td>
-                    <td style="width:35%">
-                        <b>Roles</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width:65%">
-                        <span>          
-                            <asp:Label ID="Label3" runat="server" Text="User ID:"></asp:Label>
-                            <asp:TextBox runat="server" Enabled="false" ID="UserNameText" Width="200px" style="margin-left: 44px"  />
-                        </span>
-                        <br />
-                   
-                        <span>
-                            <asp:Label ID="Label4" runat="server" Text="Email:"></asp:Label>
-                            <asp:TextBox runat="server" ID="UserEmailTxt" Width="200px" style="margin-left: 27px" />
-                        </span>
-                        <br/>
-                        <asp:CheckBox ID="ActiveBox" runat="server" Text="Active User" style="margin-left: 110px;" />
-                    </td>
-                    <td style="vertical-align:top;width:35%">
-                        <div id="roleDiv" runat="server" style="height:100%;width:100%"/>
-                    </td>
-                </tr>
-            </table>
-        <span> </span>         
-        
-        <br />   
-       
+     <div id="popupcontainer" style="width:620px;  border: 2px solid black;">
 
-        <div id="btnPanel" style="margin: auto auto auto auto; width:339px;">
-            <asp:Button runat="server" ID="ManageSave" Text="Guardar" OnClick="ManageUserSave" />
-            <asp:Button runat="server" ID="ManageDelete" Text="Borrar" OnClick="AskMessage" style="margin-left:10px; margin-right: 10px;" />
-            <asp:Button runat="server" ID="ManagePass" Text="Password" OnClick="ManagePasswd" style="margin-left:10px; margin-right: 10px;" visible="false" />
-            <asp:Button ID="Button1" runat="server" Text="Cancelar" />
-        </div>
-        </asp:Panel>
-    </div>
-        
-        
-        
-        
-    
-    
-    </asp:Content>
+        <fieldset class="changePassword">
+          <legend>Administrar usuario de sistema</legend><table width="580px" border="0" align="center"><tr>
+    <td colspan="4"></td>
+  </tr>
+  <tr>
+    <td height="24" colspan="3"><asp:Label ID="label5" runat="server" Text="Información del usuario" /></td>
+    <td width="90"><asp:Label ID="label6" runat="server" Text="Roles" /></td>
+  </tr>
+  <tr>
+    <td class="style1"><asp:Label ID="label7" runat="server" Text="User ID" /></td><td colspan="2"><asp:TextBox runat="server" Enabled="false" ID="UserNameText" /></td><td rowspan="3"> <div id="roleDiv" runat="server"/></td></tr><tr>
+    <td 
+                    class="style1"><asp:Label ID="label8" runat="server" Text="Email" /></td><td colspan="2"><asp:TextBox runat="server" ID="UserEmailTxt" /></td></tr><tr>
+    <td 
+                    class="style1">&nbsp;</td><td colspan="2"><asp:CheckBox ID="ActiveBox" runat="server" Text="Active User" /></td></tr><tr>
+    <td 
+                    class="style1"><asp:Button runat="server" ID="ManageSave" Text="Guardar" OnClick="ManageUserSave"  Width="90"/></td>
+    <td 
+                    class="style2"><asp:Button runat="server" ID="ManageDelete" Text="Borrar" OnClick="AskMessage" Width="90" /></td>
+    <td 
+                    class="style3"><asp:Button runat="server" ID="ManagePass" Text="Password" OnClick="ManagePasswd" Width="90" />
+    </td><td><asp:Button ID="Button1" runat="server" Text="Cancelar" Width="90" /></td>
+    </tr></table></fieldset>                      </div></asp:Panel></asp:Content>

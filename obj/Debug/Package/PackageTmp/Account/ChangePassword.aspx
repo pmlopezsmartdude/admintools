@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Change Password" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="ChangePassword.aspx.cs" Inherits="WSATTest.Account.ChangePassword" %>
+﻿<%@ Page Title="Change Password" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"   CodeBehind="ChangePassword.aspx.cs" Inherits="WSATTest.Account.ChangePassword" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -24,6 +23,18 @@
             <div class="accountInfo">
                 <fieldset class="changePassword">
                     <legend>Account Information</legend>
+                       <p>
+
+
+                        <asp:Label id="Msg" runat="server" ForeColor="maroon" /><br />
+
+  Username: <asp:Textbox id="UsernameTextBox" Columns="30" runat="server" AutoPostBack="true" />
+            <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                                        ControlToValidate="UsernameTextBox" ForeColor="red"
+                                        Display="Static" ErrorMessage="Required" /><br />
+
+
+                    </p>
                     <p>
                         <asp:Label ID="CurrentPasswordLabel" runat="server" AssociatedControlID="CurrentPassword">Old Password:</asp:Label>
                         <asp:TextBox ID="CurrentPassword" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
@@ -51,8 +62,10 @@
                 </fieldset>
                 <p class="submitButton">
                     <asp:Button ID="CancelPushButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel"/>
-                    <asp:Button ID="ChangePasswordPushButton" runat="server" CommandName="ChangePassword" Text="Change Password" 
-                         ValidationGroup="ChangeUserPasswordValidationGroup"/>
+                    <asp:Button ID="ChangePasswordPushButton" runat="server" 
+                        CommandName="ChangePassword" Text="Change Password" 
+                         ValidationGroup="ChangeUserPasswordValidationGroup" 
+                        onclick="ChangePasswordPushButton_Click"/>
                 </p>
             </div>
         </ChangePasswordTemplate>
